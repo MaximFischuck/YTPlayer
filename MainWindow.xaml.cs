@@ -294,8 +294,15 @@ namespace YTPlayer
             try
             {
                 var uri = new Uri(url);
-                var query = System.Web.HttpUtility.ParseQueryString(uri.Query);
-                return query["v"] ?? "";
+                // Парсим query string вручную без System.Web
+                var query = uri.Query.TrimStart('?');
+                foreach (var part in query.Split('&'))
+                {
+                    var kv = part.Split('=');
+                    if (kv.Length == 2 && kv[0] == "v")
+                        return Uri.UnescapeDataString(kv[1]);
+                }
+                return "";
             }
             catch { return ""; }
         }

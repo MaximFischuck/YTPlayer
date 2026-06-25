@@ -13,7 +13,7 @@ namespace YTPlayer
 
             if (!isNew)
             {
-                MessageBox.Show("YT Player уже запущен.", "YT Player", MessageBoxButton.OK, MessageBoxImage.Information);
+                System.Windows.MessageBox.Show("YT Player уже запущен.", "YT Player", MessageBoxButton.OK, MessageBoxImage.Information);
                 Shutdown();
                 return;
             }

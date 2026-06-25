@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.6.11828.311 oobstable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTPlayer", "YTPlayer.csproj", "{1A101EAF-157D-29CF-D097-AE6A36C2CCC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A101EAF-157D-29CF-D097-AE6A36C2CCC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A101EAF-157D-29CF-D097-AE6A36C2CCC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A101EAF-157D-29CF-D097-AE6A36C2CCC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A101EAF-157D-29CF-D097-AE6A36C2CCC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E11FED2C-1181-4E58-A348-1F34734F7189}
+	EndGlobalSection
+EndGlobal

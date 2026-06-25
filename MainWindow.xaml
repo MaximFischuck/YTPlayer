@@ -234,7 +234,7 @@
                 <Button Content="+10с ▶" Style="{StaticResource CtrlBtn}" Margin="0,0,4,0" Click="Btn_Seek" Tag="10"/>
                 <Button Content="+60с ⏭" Style="{StaticResource CtrlBtn}" Margin="0,0,8,0" Click="Btn_Seek" Tag="60"/>
                 <Button Content="⏹ Стоп" Style="{StaticResource CtrlBtn}" Margin="0,0,8,0" Click="StopButton_Click"/>
-                <Button x:Name="LoopButton" Content="🔁 Выкл" Style="{StaticResource LoopBtn}" Click="LoopButton_Click" Tag="off"/>
+                <Button x:Name="LoopButton" Content="🔁 Цикл" Style="{StaticResource LoopBtn}" Click="LoopButton_Click" Tag="off"/>
             </StackPanel>
 
             <!-- Громкость -->

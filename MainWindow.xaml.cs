@@ -253,7 +253,7 @@ namespace YTPlayer
         private void SetLoop(bool enabled)
         {
             _loopEnabled = enabled;
-            LoopButton.Content = enabled ? "🔁 Вкл" : "🔁 Выкл";
+            LoopButton.Content = enabled ? "🔁 Вкл" : "🔁 Цикл";
             LoopButton.Tag = enabled ? "on" : "off";
         }
 
